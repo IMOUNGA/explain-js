@@ -1,12 +1,13 @@
 {
-  "name": "explainjs",
+  "name": "ng-explain-js",
   "version": "0.0.2",
   "description": "Step by Step Tutorial Library",
   "keywords": [
     "steps",
     "tutorial",
     "explain",
-    "intro"
+    "intro",
+    "onboarding"
   ],
   "author": {
     "name": "Romann IMOUNGA"

@@ -1,14 +1,14 @@
 {
   "name": "explainjs",
   "version": "0.0.1",
-  "description": "Cinego Step by Step Tutorial Library",
+  "description": "Step by Step Tutorial Library",
   "keywords": ["steps", "tutorial", "explain", "intro"],
   "author": {
     "name": "Romann IMOUNGA"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/IMOUNGA/"
+    "url": "https://github.com/IMOUNGA/explain-js"
   },
   "peerDependencies": {
     "@angular/common": "^12.1.1",

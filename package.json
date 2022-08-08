@@ -1,8 +1,13 @@
 {
   "name": "explainjs",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Step by Step Tutorial Library",
-  "keywords": ["steps", "tutorial", "explain", "intro"],
+  "keywords": [
+    "steps",
+    "tutorial",
+    "explain",
+    "intro"
+  ],
   "author": {
     "name": "Romann IMOUNGA"
   },

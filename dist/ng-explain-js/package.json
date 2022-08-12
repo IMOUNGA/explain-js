@@ -22,5 +22,12 @@
   },
   "dependencies": {
     "tslib": "^2.2.0"
-  }
+  },
+  "main": "bundles/ng-explain-js.umd.js",
+  "module": "fesm2015/ng-explain-js.js",
+  "es2015": "fesm2015/ng-explain-js.js",
+  "esm2015": "esm2015/ng-explain-js.js",
+  "fesm2015": "fesm2015/ng-explain-js.js",
+  "typings": "ng-explain-js.d.ts",
+  "sideEffects": false
 }

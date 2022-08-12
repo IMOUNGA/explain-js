@@ -51,6 +51,7 @@ export class ExplainjsComponent implements OnInit, AfterViewInit {
   }
 
   close(): void {
+    this.reInitOriginCibling();
     this.closeTutorial.emit(true);
   }
 
@@ -61,7 +62,6 @@ export class ExplainjsComponent implements OnInit, AfterViewInit {
 
     this.currentStepElement = document.querySelector(this.currentSteps.selector) as HTMLElement;
     const currentStepStyle = this.currentStepElement.style;
-
     this.currentStepElementOriginalBorder = currentStepStyle.border;
     this.currentStepElementOriginalZindex = currentStepStyle.zIndex;
     currentStepStyle.zIndex = '1001';
@@ -71,6 +71,7 @@ export class ExplainjsComponent implements OnInit, AfterViewInit {
     if (this.currentStepElement) {
       this.currentStepElement.style.border = this.currentStepElementOriginalBorder;
       this.currentStepElement.style.zIndex = this.currentStepElementOriginalZindex;
+      this.currentStepElement.style.zIndex;
     }
   }
 

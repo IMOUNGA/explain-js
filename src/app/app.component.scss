@@ -1,0 +1,231 @@
+.main-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  min-height: 100vh;
+  box-sizing: border-box;
+  padding: 0 2rem;
+
+  .explain-js-box {
+
+    > .title {
+      text-align: center;
+    }
+
+    > .title > .big-button {
+      display: none;
+    }
+
+    > .title > p {
+      margin: 4rem 0;
+      font-family: komet,sans-serif;
+      font-weight: 400;
+      font-style: normal;
+    }
+
+  }
+
+  .explanations-wrapper {
+
+    > .explanation {
+      display: flex;
+      justify-content: center;
+      align-items: flex-end;
+
+      position: relative;
+
+      width: 100%;
+
+      min-height: 10rem;
+      margin-top: 3rem;
+    }
+
+    > .explanation > .ng-logo-description {
+      text-align: center;
+    }
+
+    > .explanation > .ng-logo-description > img {
+      width: 5rem;
+    }
+
+    > .explanation > h3 {
+      position: absolute;
+      left: 1rem;
+      bottom: 1rem;
+
+      margin: 0;
+      transform-origin: left;
+      transform: rotate(-90deg);
+
+      font-family: komet-sc, sans-serif;
+      font-weight: 100;
+      font-style: italic;
+      font-size: 1.3rem;
+    }
+
+    > hr {
+      position: absolute;
+      left: 0;
+      width: 56%;
+    }
+
+  }
+
+  .others-box {
+    margin: 2rem;
+    padding: 3rem 0 1rem 0;
+    text-align: center;
+  }
+}
+
+a {
+  font-family: komet-sc, sans-serif;
+  font-weight: 100;
+  font-style: italic;
+
+  color: #000;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #000;
+}
+
+a:focus {
+  color: #000;
+}
+
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) {
+  .responsive-mode {
+    display: none;
+  }
+
+  .main-wrapper {
+    display: flex;
+    flex-direction: row;
+    padding: 0;
+    height: 100%;
+    position: relative;
+
+    .explanations-wrapper {
+      display: flex;
+      box-sizing: border-box;
+      height: 80%;
+
+      > hr {
+        position: absolute;
+        bottom: -5px;
+        left: 32%;
+        border-left: 1px solid hsla(200, 10%, 50%, 100);
+        height: 20%;
+        width: .5px;
+      }
+
+      .hr-second {
+        height: 40%;
+        left: 65%;
+      }
+
+      .explanation:after {
+        background-color: #000;
+        width: 1px;
+      }
+
+      .explanation > h3 {
+        font-size: 2rem;
+      }
+    }
+
+    .explain-js-box {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+
+      width: 100%;
+    }
+
+    .explain-js-box > .title {
+      display: flex;
+      justify-content: left;
+      align-items: center;
+      padding: 2rem;
+    }
+
+    .explain-js-box > .title > .big-button {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      position: relative;
+
+      width: 14rem;
+      height: 11rem;
+
+      border-top-left-radius: 20px;
+      box-shadow: rgba(99, 99, 99, 0.2) 0 2px 8px 0;
+
+      color: #f4e9e1;
+      background-color: #fff;
+    }
+
+    .explain-js-box > .title > .big-button > p {
+      font-family: komet,sans-serif;
+      font-weight: 400;
+      font-style: normal;
+      font-size: 6rem;
+    }
+
+    .explain-js-box > .title > .big-button > .click-me {
+      position: absolute;
+
+      margin: 0;
+
+      font-family: komet-sc, sans-serif;
+      font-weight: 100;
+      font-style: italic;
+      font-size: 1rem;
+      color: #525252;
+    }
+
+    .explain-js-box > .title > .big-button > .click-me-first {
+      bottom: 5px;
+      left: 10px;
+    }
+
+    .explain-js-box > .title > .big-button > .click-me-second {
+      right: 5px;
+      bottom: 10px;
+      writing-mode: sideways-lr;
+    }
+
+    .explain-js-box > .title > h1 {
+      margin: 0 0 0 2rem;
+      font-size: 10.5rem;
+    }
+
+    .others-box {
+      display: flex;
+      align-items: flex-end;
+
+      box-sizing: border-box;
+
+      margin: 0 0 1rem 0;
+      padding: 0;
+
+      width: 2%;
+    }
+
+    .others-box > a {
+      display: block;
+
+      height: 50%;
+
+      writing-mode: vertical-lr;
+
+      text-align: end;
+    }
+  }
+}

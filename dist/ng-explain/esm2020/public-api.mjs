@@ -1,0 +1,7 @@
+/*
+ * Public API Surface of ng-explain
+ */
+// export * from './lib/ng-explain.service';
+export * from './lib/ng-explain.component';
+export * from './lib/ng-explain.module';
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoicHVibGljLWFwaS5qcyIsInNvdXJjZVJvb3QiOiIiLCJzb3VyY2VzIjpbIi4uLy4uLy4uL3Byb2plY3RzL25nLWV4cGxhaW4vc3JjL3B1YmxpYy1hcGkudHMiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7O0dBRUc7QUFFSCw0Q0FBNEM7QUFDNUMsY0FBYyw0QkFBNEIsQ0FBQztBQUMzQyxjQUFjLHlCQUF5QixDQUFDIiwic291cmNlc0NvbnRlbnQiOlsiLypcbiAqIFB1YmxpYyBBUEkgU3VyZmFjZSBvZiBuZy1leHBsYWluXG4gKi9cblxuLy8gZXhwb3J0ICogZnJvbSAnLi9saWIvbmctZXhwbGFpbi5zZXJ2aWNlJztcbmV4cG9ydCAqIGZyb20gJy4vbGliL25nLWV4cGxhaW4uY29tcG9uZW50JztcbmV4cG9ydCAqIGZyb20gJy4vbGliL25nLWV4cGxhaW4ubW9kdWxlJztcbiJdfQ==

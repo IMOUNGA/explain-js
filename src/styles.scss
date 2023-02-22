@@ -1,0 +1,24 @@
+/* You can add global styles to this file, and also import other style files */
+@import url("https://use.typekit.net/bks3dkn.css");
+
+html, body {
+  padding: 0;
+  margin: 0;
+  position: relative;
+}
+
+body {
+  background-color: #f4e9e1;
+}
+
+h1 {
+  font-family: komet,sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+p {
+  font-family: komet-sc, sans-serif;
+  font-weight: 100;
+  font-style: italic;
+}

@@ -1,7 +1,0 @@
-/*
- * Public API Surface of explainjs
- */
-// export * from './lib/explainjs.service';
-export * from './lib/explainjs.component';
-export * from './lib/explainjs.module';
-//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoicHVibGljLWFwaS5qcyIsInNvdXJjZVJvb3QiOiIiLCJzb3VyY2VzIjpbIi4uLy4uLy4uL3NyYy9wdWJsaWMtYXBpLnRzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBOztHQUVHO0FBRUgsMkNBQTJDO0FBQzNDLGNBQWMsMkJBQTJCLENBQUM7QUFDMUMsY0FBYyx3QkFBd0IsQ0FBQyIsInNvdXJjZXNDb250ZW50IjpbIi8qXG4gKiBQdWJsaWMgQVBJIFN1cmZhY2Ugb2YgZXhwbGFpbmpzXG4gKi9cblxuLy8gZXhwb3J0ICogZnJvbSAnLi9saWIvZXhwbGFpbmpzLnNlcnZpY2UnO1xuZXhwb3J0ICogZnJvbSAnLi9saWIvZXhwbGFpbmpzLmNvbXBvbmVudCc7XG5leHBvcnQgKiBmcm9tICcuL2xpYi9leHBsYWluanMubW9kdWxlJztcbiJdfQ==

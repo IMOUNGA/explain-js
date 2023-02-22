@@ -1,0 +1,37 @@
+<div class="main-wrapper">
+  <ng-explain *ngIf="showTutorial" [steps]="steps" (closeTutorial)="showTutorialModal()"></ng-explain>
+  <div class="explain-js-box">
+    <div class="title">
+      <div class="big-button" (click)="showTutorialModal()">
+        <p>?</p>
+        <p class="click-me click-me-first">Click me</p>
+        <p class="click-me click-me-second">Click me</p>
+      </div>
+      <h1 class="tuto-1">EXPLAIN JS</h1>
+      <p class="responsive-mode">Responsive in progress</p>
+    </div>
+    <div class="explanations-wrapper">
+      <div class="explanation">
+        <h3>Angular</h3>
+        <div class="ng-logo-description">
+          <img src="assets/logos/angular.png">
+          <p class="tuto-2">Create with Angular 14</p>
+        </div>
+      </div>
+      <hr>
+      <div class="explanation">
+        <h3>Library</h3>
+        <p>npm i ng-explain-js</p>
+      </div>
+      <hr class="hr-second">
+      <div class="explanation">
+        <h3>Onboarding</h3>
+        <p>Highlight and Introduce</p>
+      </div>
+      <hr class="responsive-mode">
+    </div>
+  </div>
+  <div class="others-box">
+    <a href="" class="tuto-3">github.com/IMOUNGA/explain-js</a>
+  </div>
+</div>

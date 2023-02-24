@@ -3,7 +3,7 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import {NgExplainModule} from "ng-explain";
+import {NgExplainModule} from "../../projects/ng-explain/src/lib/ng-explain.module";
 
 @NgModule({
   declarations: [

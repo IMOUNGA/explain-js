@@ -5,6 +5,7 @@ interface ISteps {
   title: string;
   desc: string;
   selector: string;
+  photoUrl?: string;
 }
 
 @Component({
@@ -13,7 +14,9 @@ interface ISteps {
     <div class="ng-explain-wrapper">
       <div class="overlay"></div>
       <div class="explain-wrapper" *ngIf="steps" #explain>
-        <p class="explain-close" (click)="close()">x</p>
+        <p class="explain-close" 
+           [ngStyle]="{'background-color': colorSecondary, 'color': colorText}" 
+           (click)="close()">x</p>
         <div class="explain-text-content">
           <h3>{{ currentSteps.title }}</h3>
           <p>{{ currentSteps.desc }}</p>
@@ -23,8 +26,12 @@ interface ISteps {
             <div class="progress-round" *ngFor="let step of steps; let i = index"></div>
           </div>
           <div class="explain-progression-buttons">
-            <button class="btn previous" (click)="previousStep()">Précédent</button>
-            <button class="btn next" (click)="nextStep()">Suivant</button>
+            <button class="btn previous" 
+                    [ngStyle]="{'background-color': color, 'color': colorText}"
+                    (click)="previousStep()">Précédent</button>
+            <button class="btn next" 
+                    [ngStyle]="{'background-color': colorSecondary, 'color': colorText}" 
+                    (click)="nextStep()">Suivant</button>
           </div>
         </div>
       </div>
@@ -37,6 +44,9 @@ export class NgExplainComponent implements OnInit, AfterViewInit {
   @ViewChild('explain') explain!: ElementRef;
 
   @Input() steps!: ISteps[];
+  @Input() color!: string;
+  @Input() colorSecondary!: string;
+  @Input() colorText!: string;
   @Output() closeTutorial: EventEmitter<boolean> = new EventEmitter();
 
   currentSteps!: ISteps;

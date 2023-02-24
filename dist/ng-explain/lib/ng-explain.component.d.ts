@@ -5,11 +5,15 @@ interface ISteps {
     title: string;
     desc: string;
     selector: string;
+    photoUrl?: string;
 }
 export declare class NgExplainComponent implements OnInit, AfterViewInit {
     progressbar: ElementRef;
     explain: ElementRef;
     steps: ISteps[];
+    color: string;
+    colorSecondary: string;
+    colorText: string;
     closeTutorial: EventEmitter<boolean>;
     currentSteps: ISteps;
     currentStepElement: HTMLElement;
@@ -32,6 +36,6 @@ export declare class NgExplainComponent implements OnInit, AfterViewInit {
     progressStepNext(): void;
     progressStepprevious(): void;
     static ɵfac: i0.ɵɵFactoryDeclaration<NgExplainComponent, never>;
-    static ɵcmp: i0.ɵɵComponentDeclaration<NgExplainComponent, "ng-explain", never, { "steps": "steps"; }, { "closeTutorial": "closeTutorial"; }, never, never, false, never>;
+    static ɵcmp: i0.ɵɵComponentDeclaration<NgExplainComponent, "ng-explain", never, { "steps": "steps"; "color": "color"; "colorSecondary": "colorSecondary"; "colorText": "colorText"; }, { "closeTutorial": "closeTutorial"; }, never, never, false, never>;
 }
 export {};

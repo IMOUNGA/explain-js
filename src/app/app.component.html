@@ -1,5 +1,10 @@
 <div class="main-wrapper">
-  <ng-explain *ngIf="showTutorial" [steps]="steps" (closeTutorial)="showTutorialModal()"></ng-explain>
+  <ng-explain *ngIf="showTutorial"
+              [steps]="steps"
+              [color]="'#f4e9e1'"
+              [colorSecondary]="'#fff'"
+              [colorText]="'#000'"
+              (closeTutorial)="showTutorialModal()"></ng-explain>
   <div class="explain-js-box">
     <div class="title">
       <div class="big-button" (click)="showTutorialModal()">

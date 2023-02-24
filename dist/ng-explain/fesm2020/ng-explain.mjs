@@ -85,7 +85,9 @@ NgExplainComponent.ɵcmp = i0.ɵɵngDeclareComponent({ minVersion: "14.0.0", ver
     <div class="ng-explain-wrapper">
       <div class="overlay"></div>
       <div class="explain-wrapper" *ngIf="steps" #explain>
-        <p class="explain-close" (click)="close()">x</p>
+        <p class="explain-close" 
+           [ngStyle]="{'background-color': colorSecondary, 'color': colorText}" 
+           (click)="close()">x</p>
         <div class="explain-text-content">
           <h3>{{ currentSteps.title }}</h3>
           <p>{{ currentSteps.desc }}</p>
@@ -112,7 +114,9 @@ i0.ɵɵngDeclareClassMetadata({ minVersion: "12.0.0", version: "15.1.5", ngImpor
     <div class="ng-explain-wrapper">
       <div class="overlay"></div>
       <div class="explain-wrapper" *ngIf="steps" #explain>
-        <p class="explain-close" (click)="close()">x</p>
+        <p class="explain-close" 
+           [ngStyle]="{'background-color': colorSecondary, 'color': colorText}" 
+           (click)="close()">x</p>
         <div class="explain-text-content">
           <h3>{{ currentSteps.title }}</h3>
           <p>{{ currentSteps.desc }}</p>

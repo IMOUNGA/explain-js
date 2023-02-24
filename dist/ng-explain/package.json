@@ -1,6 +1,6 @@
 {
   "name": "ng-explain",
-  "version": "0.0.0-watch+1677151223836",
+  "version": "0.0.1",
   "peerDependencies": {
     "@angular/common": "^15.1.0",
     "@angular/core": "^15.1.0"
